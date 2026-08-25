@@ -4,6 +4,6 @@
 
 ## Dataset information
 
-## Technique used
+## Methodology used
 
-## Impact
+## Result
