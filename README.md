@@ -2,8 +2,8 @@
 ## Project Overview and Objective
 
 
-##Dataset information
+## Dataset information
 
-##technique used
+## Technique used
 
 ## Impact
