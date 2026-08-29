@@ -4,8 +4,8 @@ The objective of this project is to build and optimize multiple linear regressio
 
 ## Dataset information
 
-The dataset is sourced from **the World Health Organization(WHO)** and **United Nations(UN)**.
-It consists of **2929** records with **22** columns, categorized as follows:
+The dataset was sourced from **the World Health Organization (WHO)** and **United Nations(UN)** between year 2000-2015 for 193 countries.
+It consists of **2929** observations with **22** variables, categorized as follows:
 
 #### **Demographic Factors**
 | Variable | Description |
