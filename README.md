@@ -46,5 +46,33 @@ It consists of 2929 records with 22 columns, categorized as follows:
 | **Alcohol** | Alcohol consumption |
 
 ## Methodology used
+### 1. Data Preprocessing
+- Cleaned and standardized column names.
+- Removed observations with missing life expectancy values.
+- Converted unrealistic zero values into missing values where appropriate.
+- Applied log transformations to selected skewed variables.
+- Encoded the categorical `Status` variable as a dummy variable.
+- Handled missing values using forward/backward filling and K-Nearest Neighbors (KNN) imputation.
+- Standardized numerical features before KNN imputation and PCA.
+
+### 2. Multiple Linear Regression
+- Built multiple linear regression models to predict life expectancy.
+- Evaluated model performance using R², RMSE, F-statistics, and residual analysis.
+
+### 3. Model Validation
+- Applied 5-fold cross-validation with repeated train-validation splits to evaluate model performance more reliably.
+- Compared models primarily based on cross-validation RMSE and R².
+
+### 4. Feature Selection
+Two feature-selection approaches were explored for the non-PCA model:
+- **Comprehensive Selection:** Evaluated combinations of highly correlated predictors.
+- **Progressive Selection:** Added predictors sequentially based on improvements in cross-validation RMSE.
+
+### 5. Principal Component Analysis (PCA)
+- Applied PCA to transform the original predictors into uncorrelated principal components.
+- Compared different numbers and combinations of principal components to identify an optimized PCA-based regression model.
+
+### 6. Model Comparison
+- Compared the optimized regression models with and without PCA based on predictive performance and model complexity.
 
 ## Result
