@@ -16,7 +16,6 @@ It consists of 2929 records with 22 columns, categorized as follows:
 | **Population** | Country population |
 
 #### **Health-related factors:**
-| Variable | Description |
 |---|---|
 | **Life Expectancy(The target variable)** | Average life expectancy of the population |
 | **Adult Mortality** | Adult mortality rate |
@@ -32,7 +31,6 @@ It consists of 2929 records with 22 columns, categorized as follows:
 | **Thinness 5-9 years** | Prevalence of thinness among children (ages 5-19 years) (%) |
 
 #### **Socioeconomic factors:**
-| Variable | Description |
 |---|---|
 | **Percentage Expenditure** | Health expenditure in absolute terms (possibly dollars per capita). Note: Incorrectly labeled in the dataset as "percentage of GDP per capita" |
 | **Total Expenditure** | General government expenditure on health as a percentage of total government expenditure (%) |
@@ -41,7 +39,6 @@ It consists of 2929 records with 22 columns, categorized as follows:
 | **Schooling** | Average number of years of schooling (years) |
 
 #### **Lifestyle Factors**
-| Variable | Description |
 |---|---|
 | **Alcohol** | Alcohol consumption |
 
