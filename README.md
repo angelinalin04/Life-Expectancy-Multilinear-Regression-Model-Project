@@ -4,13 +4,17 @@ The objective of this project is to build and optimize multiple linear regressio
 
 ## Dataset information
 
-The dataset consists of 2938 records with 22 columns, categorized as follows:
+The dataset is sourced from the World Health Organization(WHO) and United Nations(UN).
+It consists of 2929 records with 22 columns, categorized as follows:
+
+Health-related factors:
 | Variable | Description |
 |---|---|
 | Life Expectancy | Average life expectancy of the population |
 | Adult Mortality | Adult mortality rate |
 | Infant Deaths | Number of infant deaths |
-| HIV/AIDS | HIV/AIDS-related health indicator |
+| HIV/AIDS | Deaths per 1000 live births due to HIV/AIDS (ages 0-4 years) |
+|  | Deaths per 1000 live births due to HIV/AIDS (ages 0-4 years) |
 | GDP | Gross Domestic Product |
 | Population | Country population |
 | Schooling | Average years of schooling |
