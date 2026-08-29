@@ -76,3 +76,40 @@ Two feature-selection approaches were explored for the non-PCA model:
 - Compared the optimized regression models with and without PCA based on predictive performance and model complexity.
 
 ## Result
+### Optimized Model Without PCA
+
+Both the comprehensive and progressive feature-selection approaches identified the same optimized multiple linear regression model with four predictors:
+
+- Adult Mortality
+- Income Composition of Resources (ICR)
+- HIV/AIDS
+- GDP
+
+The optimized model achieved:
+
+| Metric | Cross-Validation Result |
+|---|---:|
+| R² | 0.92 |
+| RMSE | 2.65 |
+
+The model explains approximately 92% of the variation in life expectancy while maintaining a relatively simple model structure.
+
+Adding interaction terms between `Status × GDP` and `Status × HIV/AIDS` resulted in only minimal improvement, so the interaction terms were not included in the final model.
+
+### Optimized Model With PCA
+
+The optimized PCA-based regression model used 14 principal components.
+
+| Metric | Cross-Validation Result |
+|---|---:|
+| R² | 0.92 |
+| RMSE | 2.66 |
+
+### Final Model Comparison
+
+| Model | Number of Predictors / Components | R² | RMSE |
+|---|---:|---:|---:|
+| Multiple Linear Regression without PCA | 4 predictors | 0.92 | 2.65 |
+| Multiple Linear Regression with PCA | 14 principal components | 0.92 | 2.66 |
+
+Both models achieved nearly identical predictive performance. Since PCA did not significantly improve model accuracy, the four-predictor model without PCA was preferred because it provides comparable predictive performance with a simpler and more interpretable model structure.
